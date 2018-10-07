@@ -1,0 +1,479 @@
+<resources>
+    <string name="app_name">Wash</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="report_choices">
+
+        <item>Restroom is out of order</item>
+        <item>Restroom does not exist</item>
+
+    </string-array>
+
+    <string-array name="developer_roles">
+        <item>DB Administrator/Lead Programmer</item>
+        <item>QA Analyst/UX Analyst</item>
+        <item>UI/UX Designer</item>
+        <item>Application Advertisement</item>
+    </string-array>
+
+    <string-array name="linkedin_accounts">
+        <item>https://www.linkedin.com/in/raniel-gabriel-908952155/</item>
+        <item>https://www.linkedin.com/in/christian-laettner-garcia-2b9756151/</item>
+        <item>https://www.linkedin.com/in/benneth-john-fajardo-718003153/</item>
+        <item>https://www.linkedin.com/in/alen-paul-madriaga-420a2b12a/</item>
+    </string-array>
+
+    <string-array name="facebook_accounts">
+        <item>https://www.facebook.com/ranielramosgabriel</item>
+        <item>https://www.facebook.com/gian.garcia13</item>
+        <item>https://www.facebook.com/bennethjohnfajardo</item>
+        <item>https://www.facebook.com/alenpaul.madriaga</item>
+    </string-array>
+
+    <string-array name="google_plus">
+        <item>https://plus.google.com/u/0/111198778747704940946</item>
+        <item>https://plus.google.com/u/0/102286175077137944410</item>
+        <item>https://plus.google.com/u/0/112727841561941611883</item>
+        <item>https://plus.google.com/u/0/102362657693172721953</item>
+    </string-array>
+
+
+    <string-array name="floor_choices">
+
+        <item>LG - Lower Ground level</item>
+        <item>GF - Ground Level</item>
+        <item>2F - 2nd Floor</item>
+        <item>3F - 3rd Floor</item>
+        <item>4F - 4th Floor</item>
+        <item>5F - 5th Floor</item>
+        <item>6F - 6th Floor</item>
+        <item>7F - 7th Floor</item>
+        <item>8F - 8th Floor</item>
+        <item>9F - 9th Floor</item>
+        <item>10F - 10th Floor</item>
+
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="hint_search">
+        Search location or places…
+    </string>
+    <string name="hint_floor_number">
+        Enter floor number
+    </string>
+    <string name="hint_business_name">
+        Business name
+    </string>
+    <string name="hint_email">
+        Email address
+    </string>
+    <string name="hint_password">
+        Password
+    </string>
+
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_new_business_establishment_name">New Business / Establishment name</string>
+    <string name="hint_confirm_password">
+        Confirm Password
+    </string>
+    <string name="hint_current_password">Current Password</string>
+
+    <string name="text_business_owner">
+        Business Establishment Owner
+    </string>
+    <string name="text_regular_user">
+        Regular User
+    </string>
+
+
+    <string name="label_sign_up">
+        SIGN UP
+    </string>
+    <string name="label_restroom_floor">
+        Floor Level:
+    </string>
+    <string name="label_step_one">
+        Step 1: Type of User
+    </string>
+    <string name="label_step_two">
+        Step 2: Account Information
+    </string>
+    <string name="label_why_do_you_want_to_report">
+        Why do you want to report this restroom?
+    </string>
+    <string name="label_account_settings">Account Settings</string>
+    <string name="label_business_settings">Business Settings</string>
+    <string name="label_change_password">Change Password</string>
+    <string name="label_change_business_establishment_name">Change Business / Establishment Name</string>
+
+    <string name="business_owner_can">
+        A business establishment owner can:
+        \n\u2022 Add their restroom location(s).
+        \n\u2022 Add a photo gallery of the restroom.
+        \n\u2022 Enable/Disable the availability status of the restroom.
+        \n\u2022 Rate a restroom.
+        \n\u2022 Give a comment/review about a restroom.
+        \n\u2022 Report a restroom location.</string>
+    <string name="regular_user_can">
+        A regular user can:
+        \n\u2022 Rate a restroom.
+        \n\u2022 Give a comment/review about a restroom.
+        \n\u2022 Report a restroom location.
+    </string>
+    <string name="please_put_exact">
+        Please put the exact restroom location.
+        \nNote that users can flag your restroom if it does not exist.
+    </string>
+    <string name="password_does_not_match">
+        Password does not match.
+        \n
+        \nPlease check your password and try again.
+    </string>
+    <string name="you_cannot_rate_or_review">
+        You cannot rate or review a restroom.
+        \n
+        \nYou must create an account first.
+        \n
+        \nDo you want to create an account now?
+    </string>
+    <string name="an_email_verification_has_been_sent">
+        To use your account, please verify your e-mail address first to complete the registration..
+    </string>
+    <string name="an_email_already_registered">
+        Email address is already taken.
+        \n
+        \nTry a different one.
+    </string>
+    <string name="share_your_experience">
+        Are you having fun using the application? \nDo you want to share your experience?
+    </string>
+    <string name="password_must_be_longer">
+        Password must be 6 characters or longer.
+    </string>
+    <string name="fill_all_the_fields">
+        Please fill up all the fields.
+    </string>
+    <string name="enter_email_password">
+        Please enter your email and password.
+    </string>
+    <string name="business_name_is_required">
+        Please enter your business name.
+    </string>
+    <string name="choose_a_user_type">
+        Please choose a user type.
+    </string>
+    <string name="verify_email">
+        Please verify your email first.
+    </string>
+    <string name="email_password_incorrect">
+        Login failed.
+        \n
+        \nEmail or password is incorrect.
+    </string>
+    <string name="add_restroom_name_image">
+        Please add restroom image(s) and appropriate floor level.
+    </string>
+    <string name="create_an_account">
+        You must create and login to an account to use this feature.
+        \n
+        \nDo you want to create an account now?
+    </string>
+    <string name="you_must_turn_on_gps">
+        You must turn on your GPS and Allow the Location permission.
+    </string>
+    <string name="rate_and_review_posted">
+        Your rate and review has been posted.
+        \nThank you for rating and reviewing this restroom.
+    </string>
+    <string name="must_write_a_review">
+        You must write your review.
+    </string>
+    <string name="must_rate_your_experience">
+        You should rate your experience from 1 (lowest) to 5 (highest).
+    </string>
+    <string name="already_submitted_report">
+        You have already submitted a report on this restroom.
+    </string>
+    <string name="report_submitted">
+        Your report has been submitted.
+        \nThank you for submitting a report for this restroom.
+    </string>
+    <string name="success_added_restroom">
+        CONGRATULATIONS!
+        \n
+        \nYou have successfully added your restroom.
+        \n
+        \nNow users can rate and review your restroom.
+    </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="password_changed">Password successfully changed</string>
+    <string name="business_name_changed">Business name successfully changed.</string>
+    <string name="account_deleted">Your account has been successfully deleted.</string>
+    <string name="restroom_deleted">Restroom has been successfully deleted.</string>
+    <string name="restroom_not_available">Sorry. The restroom you are viewing is currently not available.</string>
+    <string name="are_you_sure_delete_account">All of your account data will be permanently removed from the application.
+    \n
+    \n
+    \n Are you sure you want to delete your account?</string>
+    <string name="are_you_sure_delete_restroom">Are you sure you want to delete this restroom?</string>
+
+    <string name="how_to_locate_a_restroom">\n<b>How to locate a restroom</b>
+        \n
+        \n1. Enable your device’s <b>“Location”</b> services by turning it on in the <b>Settings > Connections > Locations</b>, or drag down your device’s status bar and tap <b>“Location”</b> service.
+        \n
+        \n2. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n3. Tap the <b>“View Maps”</b>.
+        \n
+\n4. The nearby restroom locations will appear. Tap a restroom location to view a restroom.
+        \n
+\n5. A dialog box will appear displaying the restroom’s photo gallery, ratings, and comments about the restroom. This will help you decide if you want to use that particular restroom or not.
+        \n
+\n6. Tap the <b>“Get Direction”</b> button.
+        \n
+\n7. Follow the route guide to the restroom location.</string>
+    <string name="how_to_rate_review"><b>How to rate and review a restroom</b>
+        \n
+\n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“View Maps”</b>.
+        \n
+\n3. Tap a restroom location to view a restroom.
+        \n
+\n4. A dialog box will appear. Tap the <b>“Rate and Review”</b> button.
+        \n
+\n5. Tap a star <b>(★)</b> to rate the restroom.
+        \n
+\n6. Tap on the <b>“Write a review”</b> field to review the restroom.
+        \n
+\n7. Tap the <b>“Submit”</b> button.
+        \n
+\n<i>Note: Only registered users have the privileges to rate and review a restroom.</i></string>
+    <string name="how_to_report">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“View Maps”</b>.
+        \n
+\n3. The locations of nearby restroom will appear. Tap a restroom location to view the specific details of a particular restroom.
+        \n
+\n4. A dialog box will appear. Tap the report button <b>(!)</b> on the upper right corner of the dialog box.
+        \n
+\n5. Another dialog box will appear. Tap the dropdown and select the reason why you want to report the restroom.
+        \n
+\n6. Tap the <b>“Submit Report”</b> button.
+        \n
+        \n<i>Note: Only registered users have the privileges to report a restroom.</i></string>
+    <string name="how_to_add_restroom">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“View Maps”</b>.
+        \n
+\n3. Tap the add restroom button located on the lower right corner of the screen.
+        \n
+        \n4. A prompt will appear at the bottom of the screen. Tap <b>“Add”</b>.
+        \n
+\n5. The instructions on how to add a restroom will appear. Tap <b>“OK”</b> button.
+        \n
+\n6. A restroom marker will appear on the map. Hold the restroom marker and drop it on your business location.
+        \n
+\n7. Tap on the restroom marker to specify the restroom details.
+        \n
+\n8. A dialog box will appear. Tap the <b>“Floor Level”</b> dropdown and select the floor level of the restroom location.
+        \n
+        \n9. Tap the <b>“Add Image”</b> to add a photo gallery of the restroom. A prompt may appear asking you to allow the application to access your media files. Tap <b>“Allow”</b>.
+        \n
+\n10. Select the photo(s) of the restroom from your device’s media files. You can only add a maximum of 5 photos for that particular restroom location.
+        \n
+\n11. Tap the <b>“Add Restroom”</b> button.
+        \n
+        \n<i>Note: Only registered business owners have the privileges to add a restroom location.</i></string>
+    <string name="how_to_enable_disable_restroom">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“View Maps”</b>.
+        \n
+\n3. Tap the restroom location which you want to disable/enable.
+        \n
+        \n4. Toggle <b>“Yes”</b> to enable, or <b>“No”</b> to disable the restroom location. When toggling <b>“No”</b>, a dialog box will appear informing you the results of disabling a restroom.
+        \n
+\n5. Tap the <b>“Yes”</b> button to confirm disabling the restroom. The background color of the selected restroom location will change representing that it is disabled.
+        \n
+\nNote: Only registered business owners have the privileges to enable/disable a restroom location.</string>
+    <string name="how_to_delete_restroom">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“View Maps”</b>.
+        \n
+\n3. Tap the restroom location which you want to delete.
+        \n
+\n4. Tap the <b>“Delete Restroom”</b> button located the bottom of the dialog box. Another dialog box will appear informing you the results of deleting a restroom.
+        \n
+\n5. Tap the <b>“Yes”</b> button to confirm deleting the restroom.
+        \n
+        \n<i>Note: Only registered business owners have the privileges to delete a restroom location.</i></string>
+    <string name="how_to_change_password">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“Settings”</b>.
+        \n
+        \n3. Select the <b>“Account Settings”</b>.
+        \n
+\n4. Tap the <b>“Current Password”</b> field.
+        \n
+\n5. Enter the password you have used to log in your account.
+        \n
+\n6. Tap the <b>“New Password”</b> field.
+        \n
+\n7. Enter the new password for your account.
+        \n
+\n8. Tap the <b>“Confirm Password”</b> field.
+        \n
+\n9. Confirm the new password for your account.
+        \n
+\n10. Tap the <b>“Save Changes”</b> button.
+        \n
+\n9. A dialog box will appear informing you that you have successfully changed the password of your account. Tap the <b>“Ok”</b> button.
+        \n
+        \n<i>Note: Only registered users have the privileges to change their account password.</i></string>
+    <string name="how_to_change_business_name">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“Settings”</b>.
+        \n
+        \n3. Select the <b>“Business Establishment Settings”</b>.
+        \n
+\n4. Tap the <b>“Current Password”</b> field.
+        \n
+\n5. Enter the password you have used to log in your account.
+        \n
+\n6. Tap the <b>“New Business Name”</b> field.
+        \n
+\n7. Enter the new name for your business establishment.
+        \n
+\n8. Tap the <b>“Save Changes”</b> button.
+        \n
+\n9. A dialog box will appear informing you that you have successfully changed the name of your business. Tap the <b>“Ok”</b> button.
+        \n
+        \n<i>Note: Only registered business owners have the privileges to change the business establishment name.</i></string>
+    <string name="how_delete_an_account">
+        \n1. Open the application’s navigation drawer <b>(≡)</b>.
+        \n
+        \n2. Tap the <b>“Settings”</b>.
+    \n
+        \n3. Select the <b>“Account Settings”</b>.
+    \n
+\n4. Tap the <b>“Delete Account”</b> button located at the bottom of the screen.
+        \n
+\n5. A dialog box will appear informing you the results of deleting your account.
+        \n
+\n6. Tap the <b>“Enter Your Password”</b> field.
+        \n
+\n7. Enter the password you have used to log in your account.
+        \n
+\n8. Tap the <b>“Confirm”</b> button to confirm deleting your account.
+        \n
+        \n<i>Note: Only registered business owners have the privileges to change the business establishment name.</i></string>
+    <string name="how_to_sign_up_an_account">
+\n1. Tap the <b>“Sign Up”</b> button located at the log in screen.
+        \n
+\n2. Select on which type of user you are signing up for. Tap the more info <b>(?)</b> to see the privileges of each user type.
+        \n
+        \n\t     <b>Business Establishment Owner:</b>
+\n\t\t	• Add their restroom location(s).
+\n\t\t	• Add a photo gallery of the restroom.
+\n\t\t	• Enable/Disable the availability of the restroom.
+\n\t\t	• Rate a restroom.
+\n\t\t	• Give a comment/review about a restroom.
+\n\t\t	• Report a restroom location.
+        \n
+        \n\t     <b>Regular User:</b>
+\n\t\t	• Rate a restroom.
+\n\t\t	• Give a comment/review about a restroom.
+\n\t\t	• Report a restroom location.
+        \n
+\n3. Tap the <b>“Next”</b> button.
+        \n
+\n4. If you are signing up for a business establishment owner type, tap the <b>“Business Establishment Name”</b> field.
+        \n
+\n5. Enter the name of your business establishment.
+        \n
+\n6. Tap the <b>“Email Address”</b> field.
+        \n
+\n7. Enter a valid email address. The address you will enter will be the recipient of the verification email.
+        \n
+\n8. Tap the <b>“Password”</b> field.
+        \n
+\n9. Enter your account password.
+        \n
+\n10. Tap the <b>“Confirm Password”</b> field.
+        \n
+\n11. Confirm your account password.
+        \n
+\n12. Tap the <b>“Done”</b> button.
+        \n
+\n13. A dialog box will appear informing you to verify the email address you have entered. Tap the <b>“Ok”</b> button.
+        \n
+\n14. Check your email address and follow the steps to verify your account.
+        \n
+        \n<i>Note: You cannot log in your account unless it is verified first.</i>
+        </string>
+
+    <string name="restroom_availability">Restroom availability:</string>
+    <string name="confirm_restroom_availability"><b>Confirm Restroom Availability</b>
+    \n
+    \nAre you sure you want to disable this restroom?
+    \n
+    \nThe following of features of this restroom will be disabled:
+    \n
+        \n<b>\u2022 Get Directions</b>
+        \n<b>\u2022 Rate and Review</b>
+        \n<b>\u2022 Report Restroom</b></string>
+    <string name="current_password_wrong">Current password is wrong.</string>
+    <string name="guide_adding_restroom">How to add a restroom:
+    \n
+        \n1. A restroom marker will appear at the center of your screen
+        \n
+    \n2. Move the restroom marker to your business establishment location.
+        \n
+    \n3. Tap the marker and put the floor level.
+        \n
+    \n4. Then select up to 5 images to upload for your restroom.
+        \n
+    \n5. Tap \"Add Restroom\".</string>
+    <string name="how_to">How to?</string>
+    <string name="this_restroom_is_disabled">This restroom is currently disabled. You cannot rate and review or get directions to this restroom.</string>
+    <string name="about">
+            \tWash is a mobile Android application that will aid potential user(s) to be able to easily locate restroom locations nearby or within a particular area.
+        Essentially, with the use of Global Positioning System (GPS) to enable Google Maps with high accuracy locating method.
+        Moreover, Internet connection, such as Wi-Fi and mobile data, are also significant to retrieve real-time and reliable information about the restroom locations.
+        As the application also guides the user(s) towards a particular restroom location by depicting the shortest possible route, making it most convenient to reach their desired restroom location.
+        Specific details regarding the restroom locations, such as floor level and business establishment name (e.g. malls, fast food dining, gasoline stations, etc.) are also provided by Wash to eliminate ambiguity for the user(s).
+        \n
+        \n
+            \tWash also conveys sophisticated features such as displaying a photo gallery, ratings, and reviews of the former user(s) of the restroom.
+        Whereas, the photo gallery will aid them to see the restroom’s physical appearance.
+        Also, the rating and review of the former individual user shows their perspective and point of view about a restroom location.
+        These two features will assist the potential user(s) with their decision-making dilemma on whether to go to that particular restroom location or choose another one.
+        Additionally, the application also shows availability status of the restroom. If in case the restroom is unavailable, user(s) cannot utilize the route guide feature mentioned above.
+        \n
+        \n
+            \tFurthermore, Wash also uses the rating and reviews as a feedback from the user(s) and customer(s) of the restrooms located within a business establishment. 
+        Where owners of the business can view these feedback and encourage them to improve their restroom quality.
+        Likewise, the application will also promote the cleanliness, orderliness, and improve the quality of the restrooms of the business establishments.
+
+</string>
+    <string name="developed_by">Developed by</string>
+    <string name="powered_by">Powered by</string>
+    <string name="copyright">All Rights Reserved\nen.vi.sion (2017)</string>
+    <string name="label_reset_password">Reset Password</string>
+    <string name="password_reset_email">An email has been sent to your email.</string>
+    <string name="forgot_password">Forgot your password? Click here.</string>
+    <string name="be_the_first_to_review">This restroom has never been rated nor reviewed. Be the first one by tapping the \'Rate and Review\' button below.</string>
+    <string name="be_the_first_to_review_owner">Your restroom location has never been rated nor reviewed by any users.</string>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewAreYouSureDeleteAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/are_you_sure_delete_account"
+        android:textAlignment="center"
+        android:textColor="@color/textColorSecondary"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/editTextPasswordDeleteAccount"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:textColor="@color/textColorSecondary"
+        android:backgroundTint="@color/textColorSecondary"
+        android:textColorHint="@color/textColorSecondary"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_password"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonNoAreYouSureDeleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_btn_no" />
+
+        <ImageButton
+            android:id="@+id/imageButtonYesAreYouSureDeleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/selector_btn_yes" />
+    </LinearLayout>
+</LinearLayout>
